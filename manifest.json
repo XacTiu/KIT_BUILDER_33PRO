@@ -1,14 +1,23 @@
 {
+  "id": "/KIT_BUILDER_33PRO/",
   "name": "33PRO Kit Builder",
   "short_name": "33PRO Kit",
   "description": "Calculadora de kits 33PRO",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/KIT_BUILDER_33PRO/",
+  "scope": "/KIT_BUILDER_33PRO/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#000000",
   "theme_color": "#000000",
+  "lang": "es",
+  "dir": "ltr",
   "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
@@ -20,12 +29,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
     }
   ]
 }
